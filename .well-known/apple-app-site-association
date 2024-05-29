@@ -1,0 +1,82 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "KYYL4XHUP3.com.spryPaymentSystems.studentAthletes"
+        ],
+        "components": [
+          {
+            "/": "/create-password/*",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that matches /create-password/ and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/onboarding/invitation/*",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that matches /onboarding/invitation/ and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/*",
+            "?": {
+              "disclosureType": "?*"
+            }
+          },
+          {
+            "/": "/*",
+            "?": {
+              "contentType": "?*"
+            }
+          },
+          {
+            "/": "/*",
+            "?": {
+              "formId": "?*"
+            }
+          },
+          {
+            "/": "/*",
+            "?": {
+              "channelId": "?*"
+            }
+          },
+          {
+            "/": "/*",
+            "?": {
+              "eventType": "?*"
+            }
+          },
+		      {
+            "/": "/*",
+            "?": {
+              "caraSurveyId": "?*"
+            }
+          },
+          {
+            "/": "/login/*"
+          },
+		      {
+            "/": "/psaProfile/*"
+          },
+          {
+            "/": "/coachRosterManagement/*"
+          },
+          {
+            "/": "/recruitment/*"
+          },
+          {
+            "/": "/coachesMessaging/*"
+          },
+          {
+            "/": "/coachPaperworks/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "KYYL4XHUP3.com.spryPaymentSystems.studentAthletes"
+    ]
+  }
+}
